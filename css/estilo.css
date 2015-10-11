@@ -1,3 +1,116 @@
-body {
-  background: lightgray;
+progress {
+	width: 400px;
+	height: 14px;
+	margin: 1em auto;
+	display: block;
+	-webkit-appearance: none;
+	border: none;
+}
+/* Header */
+.Header{
+	background: #1de9b6;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	  position: relative;
+}
+.Header-figureYonathan{
+	  display: inline-block;
+	  margin-top: 5%;
+	  margin-right: 10em;
+	  height: 200px;
+}
+.Header-figureJhonny{
+      display: inline-block;
+      margin-top: 5%;
+      height: 200px;
+}
+.Header-figureImage{
+	border: 3px solid  #1E1E1E;
+	border-radius: 50%;
+	width: 150px;
+}
+.Header-figureDescription{
+	font-size: 1.5em;
+	margin: 0;
+}
+.Header-twitterJhonny,
+.Header-twitterYonathan{
+	text-decoration: none;
+	color:  #1E1E1E;
+	font-weight: 700;
+}
+/* nav */
+.Nav{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.Nav-ul{
+	margin: 0;
+	padding: 0;
+}
+.Nav-li{
+	display: inline-block;
+}
+.Nav-link{
+	color: #ffffff;
+	text-decoration:none;
+	line-height: 3.75em;
+	margin:0 4em 0 0;
+	font-weight: 700;
+}
+/* About */
+.About-title{
+	text-align: center;
+	margin: 3em auto;
+	font-weight: normal;
+	text-align: center;
+}
+.About{
+	width: 100%;
+}
+.About-description{
+ 	display: inline-block;
+ 	float: left;
+ 	width: 40%;
+ 	padding: 1em 1em 1em 4em ;
+}
+.About-skill{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	padding: 1em 4em 1em 1em;
+}
+.About-description h3,
+.About-skill h3{
+	text-align: center;
+}
+.Habilidades{
+	text-align: center;
+}
+.Habilidades-title{
+	text-align: center;
+	margin: 3em auto;
+	font-weight: normal;
+	text-align: center;
+}
+.Habilidades-Icon{
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	line-height: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.Services-title{
+	text-align: center;
+	margin: 3em auto;
+	font-weight: normal;
+	text-align: center;
 }
