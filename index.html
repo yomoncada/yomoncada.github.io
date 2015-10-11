@@ -3,148 +3,154 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Jhonny Arana and Yonathan Moncada web site proyect." />
-	<title>Web Site Proyect</title>
-	<link rel="stylesheet" href="normalize.css" />
-	<link rel="stylesheet" href="styles.css" />
+	<title>Web Site</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/estilo.css" />
 </head>
 <body>
-	<header>
-		<figure>
-			<img src="perfil.png" />
+	<header id="Header" class="Header" >
+		<figure class="Header-figureYonathan" >
+			<figcaption class="Header-figureDescription">
+			   	<img class="Header-figureImage" src="img/perfilyonathan.png" />
+					<a class="Header-twitterYonathan" href="http://twitter.com/yomoncada" target="_blank">@yomoncada</a>
+			</figcaption>
 		</figure>
-		<h2>@nickname</h2>
-		<figure>
-			<img src="perfil.png" />
+		<figure class="Header-figureJhonny" >
+			<figcaption class="Header-figureDescription">
+				<img class="Header-figureImage"src="img/perfiljhonny.png" />
+					<a class="Header-twitterJhonny" href="http://twitter.com/aranajhonny" target="_blank">@Aranajhonny</a>
+			</figcaption>
 		</figure>
-		<h2>@nickname</h2>
 	</header>
-	<nav>
-		<ul>	
-			<li>Button</li>
-			<li>Button</li>
-			<li>Button</li>
-			<li>Button</li>
+	<nav class="Nav">
+		<ul class="Nav-ul">	
+			<li class="Nav-li">¿Quienes Somos?</li>
+			<li class="Nav-li">Habilidades</li>
+			<li class="Nav-li">Servivios</li>
+			<li class="Nav-li">Blog</li>
 		</ul>
 	</nav>
-	<content>
-		<div id="first">
-			<h2>¿Who Are We?</h2>
-			<div id="about">
-				<h3>About</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>
-			<div id="skills">
-				<h3>Skills</h3><!--Tendremos que dividir las cajas en clases distintas para definir el relleno según el texto que lleven dentro o cambiar las cajas por listas y editarlas según el hijo-->
-				<div class="category">HTML5
-					<div class="porcent">95%</div>
-				</div>
-				<div class="category">HTML5
-					<div class="porcent">95%</div>
-				</div>
-				<div class="category">HTML5
-					<div class="porcent">95%</div>
-				</div>
-				<div class="category">HTML5
-					<div class="porcent">95%</div>
-				</div>
-				<div class="category">HTML5
-					<div class="porcent">95%</div>
-				</div>
-			</div>
-			<h2>Abilities</h2><!--No supe si dividirlas en cajas o en columnas dentro de una tabla.-->
-			<div id="less" class="icon-less">
-				<h3>Less</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-			</div>
-			<div id="creative" class="icon-creative">
-				<h3>Creative</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-			</div>
-			<div id="customizer" class="icon-customizer">
-				<h3>Customizer</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-			</div>
-			<div id="responsive" class="icon-responsive">
-				<h3>Responsive</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-			</div>
+	<section id="About" class="About">
+		<div class="About-description">
+			<h3>who are we</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div id="second"><!--Sólo una diapositiva por ahora.-->
-			<h2>Recommendations</h2>
-			<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>
+		<div id="Skill" class="Skill">
+			<ul class="Skill-list"> 
+  				<li class="Skill-listItem">
+  				<h3>Skill</h3>
+   				 <h2>html5</h2>
+  				  <progress class="Skill-listItemHtml5" max="100" value="50">
+    				  <strong>html5</strong>
+  				  </progress>
+  				</li>
+ 				<li class="Skill-listItem">
+   				 <h2>html5</h2>
+  				  <progress class="Skill-listItemHtml5" max="100" value="50">
+    				  <strong>html5</strong>
+  				  </progress>
+  				</li>
+  				<li class="Skill-listItem">
+   				 <h2>html5</h2>
+  				  <progress class="Skill-listItemHtml5" max="100" value="50">
+    				  <strong>html5</strong>
+  				  </progress>
+  				</li>
+  				<li class="Skill-listItem">
+   				 <h2>html5</h2>
+  				  <progress class="Skill-listItemHtml5" max="100" value="50">
+    				  <strong>html5</strong>
+  				  </progress>
+  				</li>
+			</ul>
 		</div>
-		<div id="third">
-			<h2>Abilities</h2><!--No supe si dividirlas en cajas o en columnas dentro de una tabla.-->
-			<div id="frontend" class="icon-frontend">
-				<h3>Frontend</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-				<div id="tag">
-					<ul>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-					</ul>
-				</div>
-			</div>
-			<div id="backend" class="icon-backend">
-				<h3>Backend</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-				<div id="tag">
-					<ul>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-					</ul>
-				</div>
-			</div>
-			<div id="mobile" class="icon-mobile">
-				<h3>Mobile</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-				<div id="tag">
-					<ul>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-					</ul>
-				</div>
-			</div>
-			<div id="print_design" class="icon-print_design">
-				<h3>Print Design</h3>
-				<p>TextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTexto</p>.
-				<div id="tag">
-					<ul>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-						<li>tag</li>
-					</ul>
-				</div>
-			</div>
+	</section>
+	<section id="Habilidades" class="Habilidades">
+		<div id="Habilidades-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
 		</div>
-	</content>
-	<footer>
-		<figure>
-			<img src="social.png" />
+		<div id="Habilidades-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+		</div>
+		<div id="Habilidades-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+		</div>
+		<div id="Habilidades-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+		</div>
+	</section>
+	<section id="Services" class="Services">
+		<div id="Services-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+			 <ul>
+       			 <li><a href="http://www.google.com" target="_blank">Google</a></li>
+       			 <li><a href="/fish">Fish</a></li>
+       			 <li><a href="/chips">Chips</a></li>
+        		 <li><a href="/salt">Salt</a></li>
+       			 <li><a href="/vinegar">Vinegar</a></li>
+             </ul>
+		</div>
+		<div id="Services-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+			 <ul>
+       			 <li><a href="http://www.google.com" target="_blank">Google</a></li>
+       			 <li><a href="/fish">Fish</a></li>
+       			 <li><a href="/chips">Chips</a></li>
+        		 <li><a href="/salt">Salt</a></li>
+       			 <li><a href="/vinegar">Vinegar</a></li>
+             </ul>
+		</div>
+		<div id="Services-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+			 <ul>
+       			 <li><a href="http://www.google.com" target="_blank">Google</a></li>
+       			 <li><a href="/fish">Fish</a></li>
+       			 <li><a href="/chips">Chips</a></li>
+        		 <li><a href="/salt">Salt</a></li>
+       			 <li><a href="/vinegar">Vinegar</a></li>
+             </ul>
+		</div>
+		<div id="Services-Icon">
+			<i class="fontawesomeicon"></i>
+			<h3>less</h3>
+			<p>some text</p>
+			 <ul>
+       			 <li><a href="http://www.google.com" target="_blank">Google</a></li>
+       			 <li><a href="/fish">Fish</a></li>
+       			 <li><a href="/chips">Chips</a></li>
+        		 <li><a href="/salt">Salt</a></li>
+       			 <li><a href="/vinegar">Vinegar</a></li>
+             </ul>
+		</div>
+	</section>
+	<footer id="Footer" class="Footer">
+		<figure class="Footer-image">
+			<a href="http:facebook.com" class="Fontawesomeicon" target="_blank"></a>
 		</figure>
-		<figure>
-			<img src="social.png" />
+		<figure class="Footer-image">
+			<a href="http:facebook.com" class="Fontawesomeicon" target="_blank"></a>
 		</figure>
-		<figure>
-			<img src="social.png" />
+		<figure class="Footer-image">
+			<a href="http:facebook.com" class="Fontawesomeicon" target="_blank"></a>
 		</figure>
 	</footer>
 </body>
