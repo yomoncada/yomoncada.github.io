@@ -103,6 +103,9 @@ progress {
 .About-skill h3{
 	text-align: center;
 }
+.About-skill-listItem{
+	list-style:none;
+}
 .Habilidades{
 	text-align: center;
 }
@@ -139,8 +142,13 @@ progress {
     padding: 10px;
     margin-bottom: 2em;
 }
-.Services-Icon a{
+.Services-Icon ul{
 	    text-decoration: none;
+	    list-style:none;
+}
+.Services-Icon a{
+		text-decoration: none;
+	    list-style:none;
 }
 .Footer{
 	background:#1E1E1E;
