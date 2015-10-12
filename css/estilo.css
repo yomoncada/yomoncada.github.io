@@ -90,14 +90,18 @@ progress {
 .About-description{
  	display: inline-block;
  	float: left;
- 	width: 40%;
- 	padding: 1em 1em 1em 4em ;
+ 	width: 45%;
+ 	padding: 1em 1em 1em 1em ;
+ 	margin-left: 1em;
 }
 .About-skill{
 	position: relative;
 	float: right;
-	width: 40%;
-	padding: 1em 4em 1em 1em;
+	width: 45%;
+	padding: 1em 1em 1em 1em;
+	margin-right: 1em;
+	background: #CECECE;
+	border-radius: 5px;
 }
 .About-description h3,
 .About-skill h3{
@@ -146,10 +150,18 @@ progress {
 .Services-Icon ul{
 	    text-decoration: none;
 	    list-style:none;
+	    display: inline-block;
 }
 .Services-Icon a{
-		text-decoration: none;
-	    list-style:none;
+	text-decoration: none;
+	list-style: none;
+	padding: 0.3em 0.4em;
+	background-color: #1E1E1E;
+	color: white;
+	display: inline-block;
+	margin: 0.1em;
+	font-weight: bold;
+	border-radius: 3px;
 }
 .Footer{
 	background:#1E1E1E;
