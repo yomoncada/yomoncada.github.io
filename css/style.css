@@ -83,17 +83,17 @@ progress{
 .about .description{
 	border-radius: 5px;
 	float: left;
-	margin: 3em;
+	margin: 3em 2% 3em 10%;
 	width: 35%;
 	padding: 1em;
 }
 .about .skill{
-
 	background: #CECECE;
 	border-radius: 5px;
 	float: left;
-	margin: 3em;
+	margin: 4em 2% 3em 3em;
 	width: 35%;
+	padding-right:2em;
 }
 .about .description h3,
 .about .skill h3{
