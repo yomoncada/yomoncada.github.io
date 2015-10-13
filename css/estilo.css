@@ -95,7 +95,7 @@ progress {
 .About-description{
  	display: inline-block;
  	float: left;
- 	width: 45%;
+ 	width: 40%;
  	padding: 1em 1em 1em 1em ;
  	margin-left: 2em;
  	margin-bottom: 2em;
@@ -103,7 +103,7 @@ progress {
 .About-skill{
 	position: relative;
 	float: right;
-	width: 45%;
+	width: 40%;
 	padding: 1em 1em 1em 1em;
 	margin-right: 2em;
 	margin-bottom: 2em;
