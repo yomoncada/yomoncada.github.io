@@ -31,19 +31,15 @@ progress{
       margin-right: 10em;
 }
 .header figure a{
-	color:  #1E1E1E;
+	color:  #FFF;
 	font-weight: bold;
 	text-decoration: none;
-}
-.header figure a:hover{
-	color:  #FFF;
 }
 .header figure figcaption{
 	font-size: 1.5em;
 	margin: 0;
 }
 .header figure img{
-	border: 3px solid  #1E1E1E;
 	border-radius: 50%;
 	-webkit-transition: -webkit-transform .5s ease-in-out;
     transition: transform .5s ease-in-out;
