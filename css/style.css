@@ -13,7 +13,10 @@ progress{
 }
 /* Header */
 .header {
-	background: url("img/background.jpg");
+	background: url("../img/background.jpg");
+	background-position:center; 
+	background-repeat:no-repeat;
+	background-size: cover;
 	height: 300px;
 	position: relative;
 	text-align: center;
