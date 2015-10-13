@@ -13,7 +13,7 @@ progress {
 }
 /* Header */
 .Header{
-	background: #73e0b8;
+	background: #020102;
 	width: 100%;
 	height: 300px;
 	text-align: center;
@@ -52,6 +52,11 @@ progress {
 	color:  #1E1E1E;
 	font-weight: 700;
 }
+.Header-twitterJhonny:hover,
+.Header-twitterYonathan:hover{
+	color:  #FFF;
+
+}
 /* nav */
 .Nav{
 	background: #1E1E1E;
@@ -83,7 +88,7 @@ progress {
 }
 .About-title{
 	text-align: center;
-	margin: 3em auto;
+	margin: 2em auto;
 	font-weight: normal;
 	text-align: center;
 }
@@ -92,14 +97,16 @@ progress {
  	float: left;
  	width: 45%;
  	padding: 1em 1em 1em 1em ;
- 	margin-left: 1em;
+ 	margin-left: 2em;
+ 	margin-bottom: 2em;
 }
 .About-skill{
 	position: relative;
 	float: right;
 	width: 45%;
 	padding: 1em 1em 1em 1em;
-	margin-right: 1em;
+	margin-right: 2em;
+	margin-bottom: 2em;
 	background: #CECECE;
 	border-radius: 5px;
 }
@@ -113,17 +120,16 @@ progress {
 /* Habilidades */
 .Habilidades{
 	text-align: center;
+	background: #1E1E1E;
+	color: white;
+	padding: 1em;
 }
 .Habilidades-title{
-	text-align: center;
-	margin: 3em auto;
-	font-weight: normal;
-	text-align: center;
+	margin: 2em auto;
 }
 .Habilidades-Icon{
 	width: 10%;
 	display: inline-block;
-	vertical-align: top;
 	margin: 20px;
 	line-height: 1em;
     padding: 10px;
@@ -134,14 +140,10 @@ progress {
 	text-align: center;
 }
 .Services-title{
-	text-align: center;
-	margin: 3em auto;
-	font-weight: normal;
-	text-align: center;
+	margin: 2em auto;
 }
 .Services-Icon{
 	display: inline-block;
-	vertical-align: top;
 	width: 15%;
 	line-height: 1em;
     padding: 10px;
@@ -150,7 +152,7 @@ progress {
 .Services-Icon ul{
 	    text-decoration: none;
 	    list-style:none;
-	    display: inline-block;
+	    display: inline;	
 }
 .Services-Icon a{
 	text-decoration: none;
@@ -158,10 +160,11 @@ progress {
 	padding: 0.3em 0.4em;
 	background-color: #1E1E1E;
 	color: white;
-	display: inline-block;
 	margin: 0.1em;
 	font-weight: bold;
 	border-radius: 3px;
+	display: inline-block;
+	font-size: 14px;
 }
 .Footer{
 	background:#1E1E1E;
