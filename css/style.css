@@ -156,11 +156,34 @@ progress{
 .services .title{
 	margin: 2em auto;
 }
+.contact{
+	background: #1E1E1E;
+	text-align: center;
+}
+.contact a{
+	color: white;
+	text-decoration: none;
+}
 .footer{
 	background:#1E1E1E;
 	color: white;
-	display: inline-block;
+	display: none;
 	padding: .5em;
 	text-align: center;
-	width: 100%;
+}
+.form {
+    padding: 1em;
+}
+.form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.2em 0.6em;
+}
+.form input[type="submit"]{
+    background: #80BCA3;
+    border-color: #80BCA3;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
 }
