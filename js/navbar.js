@@ -1,7 +1,7 @@
 	$(document).ready(function() {
     $(document).scroll(function () {
         var scroll = $(this).scrollTop();
-        var topDist = $("#nav").position();
+        var topDist = $("#about").position();
         if (scroll > topDist.top) {
             $('nav').css({"position":"fixed","top":"0","opacity": "0.75"});
         } else {
